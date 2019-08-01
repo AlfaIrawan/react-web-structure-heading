@@ -1,6 +1,6 @@
 {
   "name": "react-web-structure-heading",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "description": "An heading template that can be used on web application and web site base on react.js.",
   "main": "build/index.js",
   "peerDependencies": {
@@ -10,7 +10,7 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.0.5",
     "css-loader": "^3.0.0",
     "file-loader": "^4.0.0",
     "react": "^16.8.6",
