@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.heading-h1 {
+  font-size: 24px;
+}
+.heading-description {
+    font-size: 14px;
+    margin-top: -8px;
+}
+
+@media screen and (max-width: 700px) {
+    .heading-h1 {
+        font-size: 16px;
+    }
+    .heading-description {
+        font-size: 10px;
+        margin-top: -8px;
+    }
+}

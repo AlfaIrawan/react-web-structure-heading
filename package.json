@@ -1,31 +1,44 @@
 {
   "name": "react-web-structure-heading",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.2",
+  "description": "An heading template that can be used on web application and web site base on react.js.",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
   "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "style-loader": "^0.23.1",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.35.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "keywords": ["React", "React.js", "Web Structure", "Heading", "Web Heading", "Web Component", "h1", "heading"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlfaIrawan/react-web-structure-heading/issues"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlfaIrawan/react-web-structure-heading.git"
+  },
+  "author": {
+    "name": "Alfa Irawan",
+    "email": "alfa.irawan@outlook.com"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.5"
   }
 }
